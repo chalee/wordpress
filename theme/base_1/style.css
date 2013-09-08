@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*
+Theme Name:base 1
+Theme URI:テーマを配布する際はここにURL
+Description:ベーステーマ
+Version:base1
+Author:ChaLee
+Author URI:http://freelabo.com
+Tags:ベーステーマ
+*/
+
+/*
+テーマ名
+テーマのURL
+テーマの説明
+テーマのバージョン
+テーマの制作者
+テーマ制作者のURL
+テーマのタグ
+*/
+
+*{margin:0; padding:0;}
+body{height:100%; margin:10px 0;}
+html{}
+
+#container{
+	width:940px;
+	margin:0 auto;
+}
+
+#header{
+	width:940px;
+	height:100px;
+	background:#ff00ff;
+}
+
+#contents{
+	width:940px;
+/*height:2000px; left,right,2000px*/
+	background:#00ffff;
+}
+
+	#left{
+		width:640px;
+		height:100%;
+		min-height:200px;
+		background:#ffff00;
+		float:left;
+	}
+	
+	#right{
+		width:300px;
+		height:100%;
+		min-height:50px;	
+		background:#00ffff;
+		float:right;
+	}
+
+#footer{
+	clear:both;
+	width:940px;
+	height:100px;
+	background:#0000ff;
+}
